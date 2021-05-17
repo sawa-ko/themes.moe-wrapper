@@ -1,0 +1,41 @@
+{
+  "name": "themes.moe",
+  "version": "1.0.0",
+  "description": "themes.moe api wrapper",
+  "main": "dist/index.js",
+  "repository": "https://github.com/kaname-png/theme.moe-api-wrapper",
+  "author": "kaname-png",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "start:dev": "nodemon",
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint '*/**/*.{js,ts}' --quiet --fix"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@types/node": "^15.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.3.0",
+    "typescript": "^4.2.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --fix"
+    ]
+  }
+}
