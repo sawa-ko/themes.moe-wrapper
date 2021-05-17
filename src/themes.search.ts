@@ -12,7 +12,7 @@ export class ThemesSearch {
    * @param title Anime title
    * @returns anime music themes
    */
-  public async animeSearch(title: string): Promise<SearchI> {
+  public async animeSearch(title: string): Promise<SearchI[]> {
     try {
       const animeSearch = await axios.get(`/anime/search/${title}`, { baseURL: this.baseUrl });
       const { data } = await axios.post('/themes/search', animeSearch.data, { baseURL: this.baseUrl });
