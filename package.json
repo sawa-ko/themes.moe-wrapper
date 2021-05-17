@@ -1,6 +1,6 @@
 {
   "name": "@kaname-png/themes.moe",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "themes.moe api wrapper",
   "main": "dist/index.js",
   "repository": "https://github.com/kaname-png/theme.moe-api-wrapper",

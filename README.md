@@ -1,6 +1,6 @@
 ## Themes.moe API Wrapper
 
-This package helps to use the (themes.moe)[https://themes.moe/] api in a simple way. Any bugs make their respective `issue` in the original repository.
+This package helps to use the [themes.moe](https://themes.moe/) api in a simple way. Any bugs make their respective `issue` in the original repository.
 
 ## Installation
 
