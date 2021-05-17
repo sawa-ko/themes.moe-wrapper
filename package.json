@@ -1,6 +1,6 @@
 {
   "name": "@kaname-png/themes.moe",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "themes.moe api wrapper",
   "main": "dist/index.js",
   "repository": "https://github.com/kaname-png/theme.moe-api-wrapper",
@@ -13,7 +13,8 @@
     "lint": "eslint '*/**/*.{js,ts}' --quiet --fix"
   },
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "tslib": "^2.2.0"
   },
   "devDependencies": {
     "@types/node": "^15.3.0",
