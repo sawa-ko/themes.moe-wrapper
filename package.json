@@ -1,5 +1,5 @@
 {
-  "name": "themes.moe",
+  "name": "@kaname-png/themes.moe",
   "version": "1.0.1",
   "description": "themes.moe api wrapper",
   "main": "dist/index.js",
